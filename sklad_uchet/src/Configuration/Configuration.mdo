@@ -50,6 +50,7 @@
   <documents>Document.Списание</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.Доставка</documents>
+  <documents>Document.Склад</documents>
   <sequences>Sequence.КонтрольАктуальностиСкладскогоУчета</sequences>
   <reports>Report.ОстаткиНоменклатуры</reports>
   <reports>Report.АнализАктуальностиУчета</reports>
