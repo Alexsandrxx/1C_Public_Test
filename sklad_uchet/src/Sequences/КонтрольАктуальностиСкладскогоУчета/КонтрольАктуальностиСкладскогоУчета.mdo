@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Sequence xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec0b64fb-72fa-41bc-a107-8aed29cc996d">
+  <producedTypes>
+    <recordType typeId="fea55c71-dda2-4853-9ed3-96c503a4c67e" valueTypeId="f518d7f9-20ca-488c-8403-fb5ff126fba2"/>
+    <managerType typeId="216ce351-f8d4-41de-99e4-26ba474efb4b" valueTypeId="53a814fc-20c5-4464-b86d-8a73adee1854"/>
+    <recordSetType typeId="3504c901-6035-4949-8ef4-c66c4e31c9b2" valueTypeId="bba7ac09-f4b3-4e69-90e9-979bebcb28aa"/>
+  </producedTypes>
+  <name>КонтрольАктуальностиСкладскогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль актуальности складского учета</value>
+  </synonym>
+  <documents>Document.Списание</documents>
+  <registerRecords>AccumulationRegister.СкладскойУчет</registerRecords>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d6cf153c-0a23-4324-99a3-3469117d4753">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склад</types>
+    </type>
+    <documentMap>Document.Списание.Attribute.Склад</documentMap>
+    <registerRecordsMap>AccumulationRegister.СкладскойУчет.Dimension.Склад</registerRecordsMap>
+  </dimensions>
+</mdclass:Sequence>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25960f0a-bc66-47a2-8396-8a4a6243dbed">
+  <producedTypes>
+    <objectType typeId="5bc8a888-b99c-46c9-8da7-7efb1bb1537c" valueTypeId="ca6a6219-0443-4f3e-a588-d89e626f0971"/>
+    <refType typeId="bd984cc0-564c-467b-ad2c-715866a5340b" valueTypeId="a3bb28c3-2924-49a1-b642-cbe7181b6694"/>
+    <selectionType typeId="ef92ab21-7dd1-4a95-906c-cfc8a20de5ee" valueTypeId="a755e6b0-0632-4bde-a30f-53e2bd052827"/>
+    <listType typeId="9b4fcc03-ba27-4e24-9f25-6e54c291c7ca" valueTypeId="755d2897-a9ac-4c28-a11e-d30a7641ce3b"/>
+    <managerType typeId="f28bc6fb-c212-4081-ad5d-bc66bc80ab50" valueTypeId="9762c483-d5c2-4019-8c63-80476d37c7a4"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="c1fd5bd4-22d8-42f3-a48f-be7d332e984a">
+    <name>СкладХранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад хранения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склад</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
