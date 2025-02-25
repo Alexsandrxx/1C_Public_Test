@@ -44,6 +44,7 @@
   <commonCommands>CommonCommand.НайтиТоварПоНазванию</commonCommands>
   <catalogs>Catalog.Склад</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.Поступление</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.Списание</documents>
